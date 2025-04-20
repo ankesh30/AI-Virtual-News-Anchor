@@ -62,7 +62,9 @@ AI-Virtual-News-Anchor/
 1. Clone the Repository:
    <br>
 "git clone https://github.com/ankesh30/AI-Virtual-News-Anchor.git
+<br>
 cd AI-Virtual-News-Anchor"
+<br>
 <br>
 3. Create a Virtual Environment (Optional but recommended):
 
@@ -74,9 +76,11 @@ or
 <br>
 source venv/bin/activate  # On Linux/Mac"
 <br>
+<br>
 3. Install Dependencies:
 <br>
 "pip install -r requirements.txt"
+<br>
 <br>
 4. Download Pretrained Wav2Lip Model:
 <br>
@@ -123,7 +127,6 @@ torch, torchvision
 <br>
 ffmpeg (installed and added to system path)
 <br>
-<br>
 
 **Install all via:**
 <br>
@@ -141,13 +144,12 @@ GoogleNews API - For fetching latest news headlines
 newspaper3k - For extracting full news articles
 <br>
 <br>
-<br>
 
 **Screenshots / Demo**
 <br>
 Figure: Project GUI with topic input and generation buttons
 <br>
-GUI Preview
+GUI Preview:
 <br>
 GUI Screenshot-->(AI-Virtual-News-Anchor/Project GUI ScreenSort.png)
 <br>
