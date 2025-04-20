@@ -50,7 +50,7 @@ AI-Virtual-News-Anchor/
 <br>
 │   └── result_voice.mp4  -------->          # Final output video of the AI avatar reading the news with lip-sync
 <br>
-│
+│---click.wav ------> It is a mp3 file, which contain button sounds and used in GUI.
 <br>
 ├── requirements.txt     ------->           # List of required Python libraries and packages to run the project
 <br>
