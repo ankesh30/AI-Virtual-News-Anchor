@@ -15,25 +15,45 @@ Final AI-anchored news video output
 **Project Structure**
 
 AI-Virtual-News-Anchor/
+<br>
 │
+<br>
 ├── gui.py                           # GUI interface built with Tkinter for user interaction and news input
+<br>
 ├── main.py                          # Main controller script that integrates all modules and triggers the complete pipeline
+<br>
 ├── boundary_box_detection.py        # Script to detect bounding box coordinates for lips, chin, and cheeks of the avatar image
+<br>
 ├── avatar.jpg                       # Static avatar image used to generate the lip-synced talking head
+<br>
 ├── project GUI screenshot.png       # Screenshot of the GUI to provide a visual preview of the interface
+<br>
 │
+<br>
 ├── Wav2Lip/
+<br>
 │   └── inference.py                 # Lip-sync video generation module using Wav2Lip model
+<br>
 │
+<br>
 ├── modules/
+<br>
 │   ├── text_generation.py          # Automatically fetches and generates news content using web scraping and APIs
+<br>
 │   ├── text_to_speech.py           # Converts generated or manually input news text into speech using gTTS
+<br>
 │   └── avatar_generation.py        # Coordinates the avatar image and speech audio to generate the final video
+<br>
 │
+<br>
 ├── output/
+<br>
 │   └── result_voice.mp4            # Final output video of the AI avatar reading the news with lip-sync
+<br>
 │
+<br>
 ├── requirements.txt                # List of required Python libraries and packages to run the project
+<br>
 └── README.md                       # Project documentation file with setup instructions and project details
 
 
@@ -48,7 +68,7 @@ cd AI-Virtual-News-Anchor"
 
 "python -m venv venv
 venv\Scripts\activate    # On Windows
-# or
+or
 source venv/bin/activate  # On Linux/Mac"
 
 3. Install Dependencies:
